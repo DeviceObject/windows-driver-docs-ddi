@@ -57,7 +57,7 @@ The <b>RtlIsGenericTableEmptyAvl</b> routine determines if a generic table is em
 
 ### -param Table [in]
 
-Pointer to the generic table (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_rtl_generic_table">RTL_GENERIC_TABLE</a>). The table must have been initialized by calling <b>RtlIsGenericTableEmptyAvl</b>.
+Pointer to the generic table (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_rtl_generic_table">RTL_GENERIC_TABLE</a>). The table must have been initialized by calling <b>RtlInitializeGenericTableAvl</b>.
 
 
 ## -returns
